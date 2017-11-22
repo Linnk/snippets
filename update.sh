@@ -10,5 +10,5 @@ sudo -H pip install --upgrade pip
 sudo apt update && sudo apt upgrade -y
 clear
 sudo ee site update --le=renew --all 2> /dev/null
-sudo service nginx restart
+sudo ee stack restart
 sudo ee clean --all
