@@ -8,7 +8,6 @@ sudo -H pip install setuptools
 sudo -H pip install --upgrade setuptools
 sudo -H pip install --upgrade pip
 sudo apt update && sudo apt upgrade -y
-clear
 sudo ee site update --le=renew --all 2> /dev/null
 sudo ee stack restart
 sudo ee clean --all
